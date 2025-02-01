@@ -1,0 +1,27 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {chapter}{Agradecimientos}{3}{}%
+\contentsline {chapter}{\numberline {1}Introducción}{2}{}%
+\contentsline {chapter}{\numberline {2}Antecedentes y Descripción de la Empresa}{4}{}%
+\contentsline {section}{\numberline {2.1}Ubicación}{5}{}%
+\contentsline {section}{\numberline {2.2}Misión}{5}{}%
+\contentsline {section}{\numberline {2.3}Visión}{5}{}%
+\contentsline {section}{\numberline {2.4}Organigrama}{6}{}%
+\contentsline {section}{\numberline {2.5}Giro de la empresa}{6}{}%
+\contentsline {section}{\numberline {2.6}Historia}{6}{}%
+\contentsline {chapter}{\numberline {3}Problemática y Descripción del Proyecto}{7}{}%
+\contentsline {section}{\numberline {3.1}Problemática}{8}{}%
+\contentsline {section}{\numberline {3.2}Descripción del Proyecto}{8}{}%
+\contentsline {subsection}{\numberline {3.2.1}Objetivo General}{9}{}%
+\contentsline {subsection}{\numberline {3.2.2}Objetivos Específicos}{9}{}%
+\contentsline {subsection}{\numberline {3.2.3}Planeación}{9}{}%
+\contentsline {chapter}{\numberline {4}Marco Teórico}{10}{}%
+\contentsline {section}{\numberline {4.1}MongoDB}{11}{}%
+\contentsline {chapter}{\numberline {5}Desarrollo del Proyecto}{12}{}%
+\contentsline {section}{\numberline {5.1}Requerimientos}{13}{}%
+\contentsline {section}{\numberline {5.2}Análisis y Diseño}{13}{}%
+\contentsline {section}{\numberline {5.3}Implementación}{13}{}%
+\contentsline {section}{\numberline {5.4}Pruebas}{13}{}%
+\contentsline {chapter}{\numberline {6}Resultados y Conclusiones}{14}{}%
+\contentsline {section}{\numberline {6.1}Resultados}{15}{}%
+\contentsline {section}{\numberline {6.2}Conclusiones}{15}{}%
+\contentsline {chapter}{\numberline {A}Glosario}{18}{}%
