@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.10)  31 JAN 2025 20:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.10)  6 MAR 2025 01:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -340,37 +340,32 @@ Cap\'{\i }tulo 1.
 [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 205--210
-
- []
-
-[3]
 Cap\'{\i }tulo 2.
-[4
+[3
 
 ]
-<Imagenes/ubicacion.png, id=40, 629.9535pt x 407.72325pt>
+<Imagenes/ubicacion.png, id=37, 629.9535pt x 407.72325pt>
 File: Imagenes/ubicacion.png Graphic file (type png)
 <use Imagenes/ubicacion.png>
-Package pdftex.def Info: Imagenes/ubicacion.png  used on input line 227.
+Package pdftex.def Info: Imagenes/ubicacion.png  used on input line 220.
 (pdftex.def)             Requested size: 375.80542pt x 243.23602pt.
-<Imagenes/OrganigramaPisa.png, id=41, 770.88pt x 578.16pt>
+<Imagenes/OrganigramaPisa.png, id=38, 770.88pt x 578.16pt>
 File: Imagenes/OrganigramaPisa.png Graphic file (type png)
 <use Imagenes/OrganigramaPisa.png>
-Package pdftex.def Info: Imagenes/OrganigramaPisa.png  used on input line 245.
+Package pdftex.def Info: Imagenes/OrganigramaPisa.png  used on input line 238.
 (pdftex.def)             Requested size: 422.77661pt x 317.0803pt.
- [5 <./Imagenes/ubicacion.png>] [6 <./Imagenes/OrganigramaPisa.png (PNG copy)>]
+ [4 <./Imagenes/ubicacion.png>] [5 <./Imagenes/OrganigramaPisa.png (PNG copy)>]
 
 Cap\'{\i }tulo 3.
-[7
+[6
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
@@ -379,67 +374,242 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--277
 
  []
 
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
 
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 291--292
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 293--294
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 294--295
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 298--299
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
-
- []
-
-[9]
 Cap\'{\i }tulo 4.
-[10
+[9
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
-Package natbib Warning: Citation `A' on page 11 undefined on input line 319.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 316--317
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
+
+ []
 
 [11]
+Underfull \hbox (badness 10000) in paragraph at lines 327--328
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--331
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 334--335
+
+ []
+
+[12]
 Cap\'{\i }tulo 5.
-[12
+[13
 
-] [13]
+] [14]
 Cap\'{\i }tulo 6.
-[14
+[15
 
-] [15] (PisaMemoria.bbl [16]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
-2.
-
-(C:\Users\luism\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-))
-[17
-
-]
+] [16] [17]
 Ap\'{e}ndice A.
 
-Package natbib Warning: There were undefined citations.
+Underfull \hbox (badness 10000) in paragraph at lines 426--427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--429
+
+ []
+
+
+Overfull \hbox (16.66763pt too wide) in paragraph at lines 430--431
+\T1/cmr/m/n/12 TOTVS. Re-cu-pe-ra-do de https://es.totvs.com/blog/gestion-indus
+trial/gestion-de-la-produccion-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 430--431
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 432--433
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 436--437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
+
+ []
 
 [18
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--443
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 444--445
+
+ []
+
+
+Overfull \hbox (133.52pt too wide) in paragraph at lines 446--447
+[]\T1/cmr/m/n/12 SAP. (s.f.). \T1/cmr/m/it/12 ¾Qué es SAP? De-fi-ni-ción y sig-
+ni-fi-ca-do\T1/cmr/m/n/12 . Re-cu-pe-ra-do de https://www.sap.com/latinamerica/
+about/what-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 446--447
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 448--449
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--451
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 452--453
+
+ []
+
+
+Overfull \hbox (15.34338pt too wide) in paragraph at lines 454--455
+\T1/cmr/m/it/12 Tem-pla-te\T1/cmr/m/n/12 . Leap-work. Re-cu-pe-ra-do de https:/
+/www.leapwork.com/blog/test-case-vs-test-scenario 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 454--455
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 456--457
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
+
+ []
+
+
+Overfull \hbox (44.90327pt too wide) in paragraph at lines 460--461
+\T1/cmr/m/n/12 Lamb-da-Test. Re-cu-pe-ra-do de https://www.lambdatest.com/learn
+ing-hub/cross-browser-compatibility 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--461
+
+ []
+
+
+Overfull \hbox (179.08748pt too wide) in paragraph at lines 462--463
+[]\T1/cmr/m/n/12 AppMaster. (s.f.). \T1/cmr/m/it/12 Com-pa-ti-bi-li-dad con dis
+-po-si-ti-vos mó-vi-les\T1/cmr/m/n/12 . Re-cu-pe-ra-do de https://appmaster.io/
+es/glossary/compatibilidad-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 462--463
+
+ []
+
+[20]
+Ap\'{e}ndice B.
+[21
 
 ] (PisaMemoria.aux
 LaTeX Info: Redefining \. on input line 9.
@@ -455,14 +625,14 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5108 strings out of 474486
- 77980 string characters out of 5743755
- 1931542 words of memory out of 5000000
- 27323 multiletter control sequences out of 15000+600000
- 576994 words of font info for 81 fonts, out of 8000000 for 9000
+ 5075 strings out of 474486
+ 77054 string characters out of 5743755
+ 1932542 words of memory out of 5000000
+ 27296 multiletter control sequences out of 15000+600000
+ 577365 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 72i,14n,79p,631b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\luism\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
+ 72i,14n,79p,701b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\luism\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti
 1200.pk> <C:\Users\luism\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecbx1728.pk> <C:\Users\luism\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
 /dpi600\ecrm1200.pk> <C:\Users\luism\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
@@ -474,9 +644,9 @@ eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2074.pk> <C:\Users\luism\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\luism\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\luism\
 AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk>
-Output written on PisaMemoria.pdf (22 pages, 566402 bytes).
+Output written on PisaMemoria.pdf (25 pages, 592140 bytes).
 PDF statistics:
- 494 PDF objects out of 1000 (max. 8388607)
+ 545 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
