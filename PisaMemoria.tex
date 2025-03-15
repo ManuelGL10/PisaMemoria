@@ -14,8 +14,10 @@
 \usepackage{epsfig}
 \usepackage{booktabs}
 \usepackage{graphics}
+\usepackage{amsmath}
 \renewcommand{\baselinestretch}{1.5}
 \renewcommand{\thefigure}{\thesection.\arabic{figure}}
+\numberwithin{figure}{subsection}
 \makeatletter
 \@addtoreset{figure}{section}
 \makeatother
@@ -135,7 +137,7 @@ Luis Manuel Gómez López %(Empezando con el nombre  y después apellidos)
 
 \centerline{\hbox{\psfig{file=Imagenes/logoUTZMG.jpg,height=2.2in,width=1.7in}}}
 
-\LARGE{\textbf{\textsc{Path de Ayuda}} }
+\LARGE{\textbf{\textsc{ Soluciones Informáticas para Unidades de Servicios Administrativos}} }
 
 \vspace{0.3in}
 \large{\textbf{MEMORIA TÉCNICA REALIZADA EN:}}
@@ -155,7 +157,7 @@ Luis Manuel Gómez López %(Empezando con el nombre  y después apellidos)
 
 \textsc{} Jessica Aguilar Valderrama %(Empezando con el nombre y despu�s apellidos)
 
-\textsc{}Luis Manuel Gómez López
+\textsc{} Luis Manuel Gómez López
 
 \vspace{0.3in}
 \small{ ABRIL 2025}
@@ -201,6 +203,12 @@ Luis Manuel Gómez López %(Empezando con el nombre  y después apellidos)
 \chapter{Introducción}
 \newpage
 
+La presente Memoria Técnica documenta el trabajo realizado en diversos proyectos internos de PiSA, consolidando la evidencia de las actividades, análisis y entregables generados en cada iniciativa. Su propósito es registrar de manera estructurada y detallada cada una de las fases involucradas en los proyectos en los que se ha participado, asegurando la trazabilidad y el respaldo de la información técnica y funcional que los conforma.\\
+
+Se detallan los procesos llevados a cabo, desde el levantamiento de requerimientos hasta la definición de épicas y criterios de aceptación, así como el diseño de casos de prueba. Cada una de estas secciones refleja el enfoque metodológico aplicado en cada proyecto, proporcionando un panorama integral sobre las especificaciones técnicas, validaciones y consideraciones que han guiado el desarrollo de las soluciones implementadas.\\
+
+Resaltando la importancia de una documentación bien estructurada en el éxito de cada iniciativa. Se evidencia el impacto positivo de un enfoque meticuloso en la planificación y documentación del desarrollo de software, asegurando entregables de alto valor y alineados con las necesidades de la organización.\\
+
 
 
 
@@ -245,7 +253,17 @@ PiSA Farmacéutica es una empresa dedicada a la fabricación, comercialización 
 
 \section{Historia}
 
-PiSA Farmacéutica es una empresa mexicana, con 77 años de historia, desarrollando productos y servicios integrales para los segmentos de salud pública y privada en México, Estados Unidos, Latinoamérica y el Caribe.
+Pisa es una empresa farmacéutica de origen mexicana que surge en el año de 1945 por iniciativa del fundador, el Profesor Don Miguel Álvarez Ochoa, quien con la valiosa colaboración de importantes profesionales de la salud, crea Productos Infantiles S. A. en respuesta a la necesidad de aquella época: contar con medicamentos especialmente diseñados y formulados para la población infantil.\\
+
+En Productos Infantiles se comenzó a producir más de diez medicamentos diferentes, principalmente para niños: INFRAFEN, gotas para tratar los cólicos de los bebés. INFALGINA, gotas analgésicas y antipiréticas, INFANEUMIL, jarabe contra la tos, etc. los cuales fueron muy bien aceptados.\\
+
+Todo era supervisado personalmente por el Profesor Alvarez Ochoa: desde la adquisición de materias primas y materiales para la fabricación de los productos hasta su distribución, promoción y venta.\\ 
+
+Dada su preparación académica previa y su experiencia práctica en actividades relacionadas con la industria farmacéutica de México, era de esperar que estableciera la calidad como la primera y más estricta condición para la elaboración de los productos, una de sus responsabilidades directas.\\
+
+El gran esfuerzo, trabajo y conocimientos de quienes conformaban en aquellos tiempos la empresa PRODUCTOS INFANTILES S.A., se vieron reflejados en su crecimiento; un crecimiento sólido que obligó al cambio y que vio cosechados sus frutos diez años después, al transformarse en LABORATORIOS PISA S.A. DE C.V.\\  
+
+Casi 70 años después y con más de 14,000 empleados en Pisa Farmacéutica nos hemos consolidado como la empresa farmacéutica mexicana líder gracias al prestigio y a la confianza de los médicos, enfermeras, instituciones y pacientes; Elaborando productos de la más alta calidad, cumpliendo con todas las normas nacionales e internacionales que regulan la producción farmacéutica, manteniendo siempre un espíritu joven de constante innovación, mejora y crecimiento.\\
 
 \newpage
 % -------------------------------- CAPITULO PROBLEM�TICA --------------------------------------
@@ -257,7 +275,7 @@ PiSA Farmacéutica es una empresa mexicana, con 77 años de historia, desarrolla
 % En esta secci�n se deber� redactar un planteamiento de la problem�tica que se pretende resolver.
 \section{Problemática}
 
-	En el desarrollo de software, una administración de proyectos eficiente es clave para garantizar calidad y cumplimiento de objetivos. Sin embargo, la falta de documentación técnica bien estructurada dificulta la comprensión del proyecto y afecta el trabajo de equipo provoca que esta documentación sea inconsistente, incompleta o desactualizada, lo que dificulta la realización de pruebas precisas y la identificación temprana de errores. \\
+	En el desarrollo de software, una administración de proyectos eficiente es clave para garantizar calidad y cumplimiento de objetivos. Sin embargo, la falta de documentación técnica bien estructurada dificulta la comprensión del proyecto y afecta el trabajo de equipo, provocando así que la documentación sea inconsistente, incompleta o desactualizada, lo que dificulta la aplicación de pruebas precisas y la identificación temprana de errores.  \\
 	
 	La ausencia de una documentación clara y bien definida genera problemas en la comunicación entre los diferentes equipos de trabajo, dificultando la alineación de objetivos y la comprensión de los requerimientos del sistema. Esto impacta negativamente en la calidad del producto final, ya que se incrementan los riesgos de malinterpretaciones, modificaciones no documentadas y errores en la implementación.
 	
@@ -345,47 +363,752 @@ La correcta implementación de estos elementos permite asegurar el correcto func
 	
 \section{Path de ayuda}
 
+	El proyecto Path de Ayuda está diseñado para mejorar la eficiencia en la planta de Formas Sólidas, proporcionando un sistema de monitoreo en tiempo real que facilite la gestión del proceso de fabricación. Este sistema permitirá visualizar el avance de los lotes en cada línea de producción, agilizar la planificación de cambios y limpiezas, así como gestionar alertas sobre posibles fallas, notificando a los dispositivos vinculados del personal responsable.\\
+	
+	Se participó en la fase inicial del proyecto, enfocándose en la documentación necesaria para su desarrollo. Dado que la implementación del sistema sería realizada por una empresa externa, nuestra labor consistió en estructurar la información clave, garantizar una base organizada y clara para su desarrollo.\\
+	
+	Se logró una mejor organización del proyecto, facilitando la transición hacia el equipo de desarrollo externo y asegurando que las necesidades del negocio fueran correctamente traducidas en especificaciones técnicas.
+
 \subsection{Levantamiento de requerimeintos}
 
-\subsection{Descripcion de requerimeintos}
+	Para garantizar que el proyecto Path de Ayuda cumpliera con las necesidades operativas de la planta de Formas Sólidas, llevamos a cabo un proceso de levantamiento de requerimientos con el objetivo de documentar de manera precisa las funcionalidades y características esenciales del sistema.\\
+	
+	Durante este proceso, uno de los mayores desafíos fue traducir las necesidades operativas en especificaciones técnicas claras, asegurando que el sistema cumpliera con los estándares requeridos.\\
+	
+	Gracias a este levantamiento de información, el equipo de desarrollo externo pudo contar con una documentación estructurada y detallada, facilitando la implementación del sistema y asegurando que el producto final estuviera alineado con los objetivos de la organización.
 
-\subsection{FPs}
+\subsection{Descripción de Épicas}
+
+	Como parte de la documentación para el desarrollo del sistema Path de Ayuda, se realizó la definición y estructuración de las épicas del proyecto. Una épica representa un conjunto de funcionalidades de alto nivel que permiten organizar el trabajo en historias de usuario más detalladas, facilitando la planificación del desarrollo.\\
+	
+	Para garantizar una documentación clara y estandarizada, cada épica fue documentada en un formato estructurado de la siguiente manera:\\
+		
+	{\leftskip=1em 
+		\noindent 
+		1. Título de la Épica – Nombre que resume su propósito.
+	\par}
+	
+	{\leftskip=1em 
+		\noindent 
+		2. Descripción – Explicación detallada de la funcionalidad y su importancia.
+	\par}
+	
+	{\leftskip=1em 
+		\noindent 
+		3. Criterios de Aceptación – Reglas y condiciones necesarias para que la épica se considere completada.\\
+	\par}
+
+	El equipo de QA desempeñó un rol clave en la validación de cada épica, asegurando que la información estuviera completa y alineada con los requisitos del negocio. Gracias a esta documentación, el equipo de desarrollo externo pudo comprender mejor el alcance del proyecto, optimizando los tiempos de implementación y reduciendo posibles errores o ambigüedades en el desarrollo.
+	
+\subsection{Puntos de Función}
+
+	Como parte del proceso de documentación del proyecto Path de Ayuda, se realizó un Análisis de Punto de Función (APF) para estimar el tamaño del software y evaluar el esfuerzo necesario para su desarrollo. Esta técnica permitió cuantificar las funcionalidades del sistema basándose en la perspectiva del usuario, facilitando una mejor planificación del proyecto y una estimación más precisa de costos y tiempos de desarrollo.\\
+	
+	Para llevar a cabo el análisis, se identificaron y clasificaron los siguientes elementos del sistema:\\
+	
+	{\leftskip=1em 
+	  \noindent 
+		1.Entradas Externas (EI) – Datos ingresados por los usuarios en el sistema.
+	\par}
+	
+	{\leftskip=1em 
+	  \noindent 
+		2.Salidas Externas (EO) – Información generada y presentada a los usuarios.
+	\par}
+	
+	{\leftskip=1em 
+	  \noindent 
+		3.Consultas Externas (EQ) – Procesos que permiten a los usuarios recuperar información específica
+	\par}
+
+	{\leftskip=1em 
+	  \noindent 
+		4.Archivos Lógicos Internos (ILF) – Bases de datos o archivos que almacenan información persistente.
+	\par}
+
+	\begin{figure}[htp]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsLogin.png}
+		\caption{Puntos de Función - Login}\label{a1}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsRegistroUsuario.png}
+		\caption{Puntos de Función - Registo de Usuarios}\label{a2}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsIntegracionSAP.png}
+		\caption{Puntos de Función - Integración de SAP}\label{a2}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsCatalagoSAP.png}
+		\caption{Puntos de Función - Catalagos SAP}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsDependeciasChecklist.png}
+		\caption{Puntos de Función - Gestión de Dependencias y Checklist
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsComunicacionPiso.png}
+		\caption{Puntos de Función - Comunicación con el Control de Piso 
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsChecklistsInteractivos.png}
+		\caption{Puntos de Función - Gestión de Checklists Interactivos 
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsInterfacesUsuario.png}
+		\caption{Puntos de Función - Desarrollo de Interfaces de Usuario Adaptativas 
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsTaskmanager.png}
+		\caption{Puntos de Función - Task manager 
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsTaskmanager2.png}
+		\caption{Puntos de Función - Task manager 
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsSMED.png}
+		\caption{Puntos de Función - SMED
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsBotonesANDON.png}
+		\caption{Puntos de Función - Simulación de Botones del Sistema ANDON 
+		}\label{a2}
+	\end{figure}
+
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsTorretasLuminosas.png}
+		\caption{Puntos de Función - Configuración y Simulación de Torretas Luminosas  
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsAlarmasNotifiaciones.png}
+		\caption{Puntos de Función - Implementación de Alarmas y Notificaciones Auditivas 
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsSimulacion.png}
+		\caption{Puntos de Función - Integración y Simulación de la Interfaz ANDON Completa 
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsPersonalizacionAndon.png}
+		\caption{Puntos de Función - Personalización y Configuración del Sistema ANDON
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsMultiCanal.png}
+		\caption{Puntos de Función - Integración de Notificaciones Multi-Canal
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsSeguridadAutenticacion.png}
+		\caption{Puntos de Función - Seguridad y Autenticación
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsMonitoreoReportes.png}
+		\caption{Puntos de Función - Monitoreo y Reportes
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsRecetas.png}
+		\caption{Puntos de Función - Recetas
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsInventarios.png}
+		\caption{Puntos de Función - Inventarios
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/FpsProgramaciónTareas.png}
+		\caption{Puntos de Función - Programación de tareas 
+		}\label{a2}
+	\end{figure}
+\newpage
 
 \subsection{Casos de prueba}
 
+	Como parte del proceso de aseguramiento de calidad para el sistema Path de Ayuda, se elaboró un documento estructurado de casos de prueba, organizados por épicas y sus respectivos casos de prueba.\\
+	
+	El propósito principal de este documento fue definir y estructurar pruebas que permitieran evaluar el cumplimiento de los requerimientos antes de la fase de desarrollo, asegurando que el sistema funcione correctamente bajo diferentes condiciones.\\
+	
+	El documento de casos de prueba se organizó por épicas, y dentro de cada épica se definieron los escenarios a evaluar.\\
+	
+	{\leftskip=1em 
+	\noindent 
+		\textbf{Escenario:} Situación específica en la que se ejecutará la prueba.
+	\par}
+	
+	{\leftskip=1em 
+	\noindent 
+		\textbf{Prerrequisitos:} Condiciones que deben cumplirse antes de ejecutar la prueba
+	\par}
 
+	{\leftskip=1em 
+	\noindent 
+		\textbf{Datos de Entrada:} Información que se ingresará en el sistema para la ejecución de la prueba.
+	\par}
+
+	{\leftskip=1em 
+	\noindent 
+		\textbf{Resultados Esperados:} Comportamiento esperado del sistema tras ejecutar la prueba.
+	\par}
+
+	{\leftskip=1em 
+	\noindent 
+		\textbf{Escenarios Positivos:} Pruebas en las que el sistema responde correctamente según lo esperado.
+	\par}
+
+	{\leftskip=1em 
+	\noindent 
+		\textbf{Escenarios Negativos:} Pruebas en las que se validan errores o respuestas incorrectas del sistema.\\
+	\par}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPLogin.png}
+		\caption{Caso de Prueba - Log-in 
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPLogin2.png}
+		\caption{Caso de Prueba - Log-in 
+		}\label{a2}
+	\end{figure}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPRegistroUsuario.png}
+		\caption{Caso de Prueba - Registro de Usuario 
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPRegistroUsuario2.png}
+		\caption{Caso de Prueba - Registro de Usuario
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPInterfaces.png}
+		\caption{Caso de Prueba - Desarrollo de Interfaces de Usuario Adaptativas 
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPInterfaces2.png}
+		\caption{Caso de Prueba - Desarrollo de Interfaces de Usuario Adaptativas
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPSeguridadAutenticacion.png}
+		\caption{Caso de Prueba - Seguridad y  Autenticación
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPSeguridadAutenticacion2.png}
+		\caption{Caso de Prueba - Seguridad y  Autenticación
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPPathAyuda.png}
+		\caption{Caso de Prueba - Path de ayuda /  ANDON
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPPathAyuda2.png}
+		\caption{Caso de Prueba - Path de ayuda /  ANDON
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPANDON.png}
+		\caption{Caso de Prueba - Integración y simulación - ANDON
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPANDON2.png}
+		\caption{Caso de Prueba - Integración y simulación - ANDON
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPPesonalizaciónANDON.png}
+		\caption{Caso de Prueba - Personalización y configuración - ANDON 
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPPesonalizaciónANDON2.png}
+		\caption{Caso de Prueba - Personalización y configuración - ANDON
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPBotonesAndon.png}
+		\caption{Caso de Prueba - Simulación de botones - ANDON
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPBotonesAndon2.png}
+		\caption{Caso de Prueba - Simulación de botones - ANDON
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPTorreta.png}
+		\caption{Caso de Prueba - Configuración y Simulación de Torreta Luminosa
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPTorreta.png}
+		\caption{Caso de Prueba - Configuración y Simulación de Torreta Luminosa
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPTorreta2.png}
+		\caption{Caso de Prueba - Configuración y Simulación de Torreta Luminosa
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPMultiCanal.png}
+		\caption{Caso de Prueba - Notificaciones Multi-Canal
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPMultiCanal2.png}
+		\caption{Caso de Prueba - Notificaciones Multi-Canal
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPSMED.png}
+		\caption{Caso de Prueba - SMED
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPSMED2.png}
+		\caption{Caso de Prueba - SMED
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\textwidth]
+		{Imagenes/PathAyuda/CPRecetas.png}
+		\caption{Caso de Prueba - Gestión de Recetas
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPRecetas2.png}
+		\caption{Caso de Prueba - Gestión de Recetas
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPLineaProduccion.png}
+		\caption{Caso de Prueba - Trafico de Líneas de Producción
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPLineaProduccion2.png}
+		\caption{Caso de Prueba - Trafico de Líneas de Producción
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPGestionArea.png}
+		\caption{Caso de Prueba - Gestión de Áreas
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPGestionArea2.png}
+		\caption{Caso de Prueba - Gestión de Áreas
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPTask.png}
+		\caption{Caso de Prueba - Task Manager (Incidencias ANDON)
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/PathAyuda/CPTask2.png}
+		\caption{Caso de Prueba - Task Manager (Incidencias ANDON)
+		}\label{a2}
+	\end{figure}
+	
+	\newpage
+	
 
 \section{Calculadora Nutricional}
 
+	El proyecto Calculadora Nutricional tiene como objetivo modernizar una herramienta desarrollada en 2011 para el cálculo de nutrición parenteral en pacientes adultos, trasladándola a una plataforma web accesible y funcional. La versión original, distribuida en discos físicos y operada mediante un programa instalable, quedó obsoleta con el tiempo, limitando su uso y dificultando la promoción de mezclas individualizadas de SAFE.\\
+	
+	Para garantizar un desarrollo estructurado y eficiente, se llevó a cabo una documentación completa del proyecto. Este trabajo permitió establecer una base sólida para la planificación y ejecución del desarrollo, asegurando que cada aspecto del sistema estuviera bien definido antes de su implementación.\\
+	
+	Gracias a esta documentación, se logró una mejor organización del proyecto, facilitando la identificación de necesidades y asegurando que las funcionalidades estuvieran alineadas con los objetivos planteados.Además, permitió estructurar de manera clara las mejoras con respecto a la versión anterior, optimizando el desarrollo y asegurando que la herramienta final sea eficiente, accesible y alineada con las necesidades del sector salud.
+
 \subsection{Levantamiento de requerimientos}
 
+	Para garantizar que la nueva versión de la Calculadora Nutricional cubriera todas las necesidades del personal de salud y mejorara la experiencia del usuario, se llevó a cabo un levantamiento de requerimientos detallado. Durante este proceso, se analizaron tanto las limitaciones de la versión original como las funcionalidades necesarias para optimizar su uso en un entorno web.\\
+	
+	{\leftskip=1em 
+	\noindent 
+	\textbf{Usuarios y roles:}\\ 
+	Definiendo las diferencias entre usuarios registrados (doctores y personal de salud) y visitantes, estableciendo permisos diferenciados como la capacidad de almacenar y recuperar cálculos.\\
+	\par}
+
+	{\leftskip=1em 
+	\noindent 
+	\textbf{Funcionalidades esenciales:}\\
+	Incluyendo el cálculo de mezclas, la impresión de resultados, el almacenamiento en una base de datos y la incorporación de una encuesta inicial para recopilar información de uso.\\
+	\par}
+	
+	{\leftskip=1em 
+	\noindent 
+	\textbf{Mejoras respecto a la versión anterior:}\\
+	Implementando herramientas de monitoreo para conocer quién y desde dónde se utiliza la calculadora, facilitando estrategias de promoción y capacitación.\\
+	\par}
+	
+	{\leftskip=1em 
+	\noindent 
+	\textbf{Requisitos técnicos y de usabilidad:}\\
+	Considerando aspectos como la accesibilidad, la compatibilidad con dispositivos modernos y una interfaz intuitiva.\\
+	\par}
+
 \subsection{Casos de prueba}
-
-
-
-
-
-
-
-
-
-
-
-
-
 	
+	Para asegurar la fiabilidad de los cálculos y la correcta implementación de las funcionalidades de la Calculadora Nutricional, se diseñó un conjunto de casos de prueba organizados por épicas y centrados en la precisión de las fórmulas médicas, la gestión de usuarios y la usabilidad del sistema.\\
 
-
-
-
+	{\leftskip=1em 
+		\noindent 
+		\textbf{Escenario:} Situación específica en la que se ejecutará la prueba.
+		\par}
 	
-\section{Análisis y Diseño}
+	{\leftskip=1em 
+		\noindent 
+		\textbf{Prerrequisitos:} Condiciones que deben cumplirse antes de ejecutar la prueba
+		\par}
+	
+	{\leftskip=1em 
+		\noindent 
+		\textbf{Datos de Entrada:} Información que se ingresará en el sistema para la ejecución de la prueba.
+		\par}
+	
+	{\leftskip=1em 
+		\noindent 
+		\textbf{Resultados Esperados:} Comportamiento esperado del sistema tras ejecutar la prueba.
+		\par}
+	
+	{\leftskip=1em 
+		\noindent 
+		\textbf{Escenarios Positivos:} Pruebas en las que el sistema responde correctamente según lo esperado.
+		\par}
+	
+	{\leftskip=1em 
+		\noindent 
+		\textbf{Escenarios Negativos:} Pruebas en las que se validan errores o respuestas incorrectas del sistema.\\
+		\par}
 
-\section{Implementación}
 
-\section{Pruebas}
+	Se diseñaron pruebas para garantizar la precisión del sistema, verificando la exactitud de los cálculos, el manejo de errores en los datos de entrada y el acceso adecuado según el tipo de usuario. Además, se validó la correcta generación e impresión de reportes. La documentación detallada de estos casos de prueba permitió establecer un marco sólido para la validación del sistema, asegurando su fiabilidad y facilitando futuras mejoras.\\
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPLogin.png}
+		\caption{Caso de Prueba - Log-in
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPLogin2.png}
+		\caption{Caso de Prueba - Log-in
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPCuentaMedico.png}
+		\caption{Caso de Prueba - Creación de Cuenta para Personal Médico
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPCuentaMedico2.png}
+		\caption{Caso de Prueba - Creación de Cuenta para Personal Médico
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPCuentaEstudiante.png}
+		\caption{Caso de Prueba - Creación de Cuenta para Personal Médico
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPCuentaEstudiante2.png}
+		\caption{Caso de Prueba - Creación de Cuenta para Personal Médico
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPSesionGestion.png}
+		\caption{Caso de Prueba - Inicio de Sesión y Gestión de Usuarios
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPSesionGestion2.png}
+		\caption{Caso de Prueba - Inicio de Sesión y Gestión de Usuarios
+		}\label{a2}
+	\end{figure}
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPRolesPermisos.png}
+		\caption{Caso de Prueba - Gestión de Roles y Permisos
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPRolesPermisos2.png}
+		\caption{Caso de Prueba - Gestión de Roles y Permisos
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPEncuestaEstudiante.png}
+		\caption{Caso de Prueba - Encuesta de Registro para Estudiantes y Visitantes
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPEncuestaEstudiante2.png}
+		\caption{Caso de Prueba - Encuesta de Registro para Estudiantes y Visitantes
+		}\label{a2}
+	\end{figure}
 
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPDiseñoInterfaz.png}
+		\caption{Caso de Prueba - Diseño de interfaz de Usuario
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPDiseñoInterfaz2.png}
+		\caption{Caso de Prueba - Diseño de interfaz de Usuario
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPCalculadora.png}
+		\caption{Caso de Prueba - Cálculo de Flujo y Evaluación Nutricional
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPCalculo2.png}
+		\caption{Caso de Prueba - Cálculo de Flujo y Evaluación Nutricional
+		}\label{a2}
+	\end{figure}
 
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPInicio.png}
+		\caption{Caso de Prueba - Interfaz de Inicio
+		}\label{a2}
+	\end{figure}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.0\textwidth]
+		{Imagenes/CalculadoraNutricional/CPInicio2.png}
+		\caption{Caso de Prueba - Interfaz de Inicio
+		}\label{a2}
+	\end{figure}
+	
+	
 % CAPITULO RESULTADOS(estatus del proyecto y posibles mejoras) Y CONCLUSIONES(problemas presentados, costos, restrasos, cumplimiento de objetivos, etc)
 %____________________________________________________________________________________________________________________
 	
@@ -412,56 +1135,33 @@ La correcta implementación de estos elementos permite asegurar el correcto func
 \bibliographystyle{unsrtnat}
 	
 	
-\begin{itemize}
-	\item A
-	\item B
-	\item C
-\end{itemize}
+
 
 
 
 \newpage
 \chapter{Bibliografía}
 
-	Intel. (n.d.). \textit{Descripción general y ejemplos de los sistemas en tiempo real}. Intel. Recuperado de {https://www.intel.la/content/www/xl/es/robotics/real-time-systems.html}\\
+	Sulbarán, I. (2023). \textit{¿Qué es la gestión de proyectos de software? - Tiffin University}. Recuperado 6 de junio de 2023, de https://global.tiffin.edu/blog/en-que-consiste-la-gestion-de-proyectos-de-software:~:text=Alhablardelagestio,alaprcticaseg\\
 	
-	IBM. (2023, diciembre 20). \textit{Monitoreo de condiciones. ¿Qué es el monitoreo de condiciones?} Recuperado de {https://www.ibm.com/mx-es/topics/condition-monitoring}\\
+	Gurnov, A. (2023). \textit{¿Qué es la gestión de proyectos de software?}. Recuperado 17 de julio de 2023, de https://www.wrike.com/es/project-management-guide/faq/que-es-la-gestion-de-proyectos-de-software/\\
 	
-	Latam, T. (2023, junio 8). \textit{Gestión de la producción: qué es, etapas y cómo hacerlo}. TOTVS. Recuperado de {https://es.totvs.com/blog/gestion-industrial/gestion-de-la-produccion-que-es-etapas-y-como-hacerlo/}\\
+	Arsys. (2024). \textit{Cómo hacer documentación técnica para tu software}. Recuperado en 2024, de https://www.arsys.es/blog/hacer-documentacion-tecnica-software:~:
+	text=Laimportancia-de-unadocumentaci,puedevolverseinaccesibleeineficaz\\
 	
-	Katana. (2024, mayo 22). \textit{Production Management Software for Manufacturers — Katana}. Recuperado de {https://katanamrp.com/production-management-software/}\\
+	IBM. (2024). \textit{Gestión de requisitos. ¿Qué es la gestión de requisitos?}. Recuperado 8 de octubre de 2024, de https://www.ibm.com/mx-es/topics/what-is-requirements-management:~:text\\
 	
-	Admin. (2023, febrero 12). \textit{La automatización industrial: ¿Qué es? Sus características más relevantes}. AUTEXOPEN. Recuperado de {https://www.autex-open.com/automatizacion-industrial/automatizacion-industrial/}\\
+	Blueoptima\_Admin. (2023). \textit{What Are Function Points in Software Engineering?}. Recuperado 10 de agosto de 2023, de https://www.blueoptima.com/what-are-function-points-in-software-engineering/\\
 	
-	SafetyCulture. (2024, enero 15). \textit{Sistema Andon: Cómo funciona el sistema}. Recuperado de {https://safetyculture.com/es/temas/sistema-andon/}\\
+	GeeksforGeeks. (2024). \textit{Functional Point (FP) Analysis Software engineering}. Recuperado 20 de septiembre de 2024, de https://www.geeksforgeeks.org/software-engineering-functional-point-fp-analysis/\\
 	
-	Mapex. (2024, julio 1). \textit{¿Qué es el sistema Andon y cuáles son sus beneficios?} Recuperado de {https://mapex.io/news/sistema-andon-definicion-y-beneficios/}\\
+	IBM. (2024, mayo 9). \textit{¿Qué son las pruebas de software y cómo funcionan?} Recuperado de https://www.ibm.com/mx-es/topics/software-testing\\
 	
-	Romero, P. (2022, diciembre 7). \textit{¿Qué es Andon? Sistema de control visual de producción}. Geinfor ERP. Recuperado de {https://geinfor.com/que-es-andon-sistema-de-control-visual-de-produccion/}\\
+	Roy, S. (2023, junio 21). \textit{Quality Assurance vs Testing}. BrowserStack. Recuperado de https://www.browserstack.com/guide/quality-assurance-vs-testing\\
 	
-	Galiana, P. (2024, abril 9). \textit{GUÍA: ¿Qué es SAP y qué soluciones ofrece?} Thinking for Innovation. Recuperado de {https://www.iebschool.com/blog/que-es-para-que-sirve-sap-management/}\\
+	Schwartz, C. (2025, enero 30). \textit{Test Cases vs Test Scenarios: Definition, Examples and Template}. Leapwork. Recuperado de https://www.leapwork.com/blog/test-case-vs-test-scenario\\
 	
-	Hiberus. (2024, enero 25). \textit{¿Qué es SAP y para qué sirve?} Blog de Hiberus. Recuperado de {https://www.hiberus.com/crecemos-contigo/que-es-sap/}\\
-	
-	SAP. (s.f.). \textit{¿Qué es SAP? Definición y significado}. Recuperado de {https://www.sap.com/latinamerica/about/what-is-sap.html}\\
-	
-	Certus. (2022, abril 13). \textit{Las pruebas de software y su importancia}. Certus Blog. Recuperado de {https://www.certus.edu.pe/blog/pruebas-de-software-importancia/}\\
-	
-	IBM. (2024, mayo 9). \textit{¿Qué son las pruebas de software y cómo funcionan?} Recuperado de {https://www.ibm.com/mx-es/topics/software-testing}\\
-	
-	Roy, S. (2023, junio 21). \textit{Quality Assurance vs Testing}. BrowserStack. Recuperado de {https://www.browserstack.com/guide/quality-assurance-vs-testing}\\
-	
-	Schwartz, C. (2025, enero 30). \textit{Test Cases vs Test Scenarios: Definition, Examples and Template}. Leapwork. Recuperado de {https://www.leapwork.com/blog/test-case-vs-test-scenario}\\
-	
-	Mapex. (2023, septiembre 15). \textit{Tecnología móvil: ¿cuál es su potencial en las empresas industriales?} Recuperado de {https://mapex.io/news/tecnologia-movil-empresas-industriales/}\\
-	
-	Toobler. (s.f.). \textit{Industry-Specific Web Application Development Guide - 2025}. Recuperado de {https://www.toobler.com/blog/industry-specific-web-application-development}\\
-	
-	Afzal, M. (2024, julio 8). \textit{Cross browser compatibility - web apps that work universally}. LambdaTest. Recuperado de {https://www.lambdatest.com/learning-hub/cross-browser-compatibility}\\
-	
-	AppMaster. (s.f.). \textit{Compatibilidad con dispositivos móviles}. Recuperado de {https://appmaster.io/es/glossary/compatibilidad-con-dispositivos-moviles}\\
-	
-
+	Mapex. (2023, septiembre 15). \textit{Tecnología móvil: ¿cuál es su potencial en las empresas industriales?} Recuperado de https://mapex.io/news/tecnologia-movil-empresas-industriales/\\
 
 \newpage	
 \chapter{Glosario}

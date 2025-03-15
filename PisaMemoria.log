@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.10)  6 MAR 2025 01:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.10)  15 MAR 2025 01:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -246,23 +246,233 @@ LaTeX Info: Redefining \% on input line 9.
 
 LaTeX Warning: Label `a1' multiply defined.
 
+
+LaTeX Warning: Label `a1' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
+
+LaTeX Warning: Label `a2' multiply defined.
+
 )
 \openout1 = `PisaMemoria.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 
 (C:\Users\luism\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -289,14 +499,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \. on input line 37.
-LaTeX Info: Redefining \% on input line 37.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+LaTeX Info: Redefining \. on input line 39.
+LaTeX Info: Redefining \% on input line 39.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
 
  (C:\Users\luism\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
 
 
 (C:\Users\luism\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -305,17 +515,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <Imagenes/logoUTZMG.jpg, id=1, 71.51718pt x 92.59593pt>
 File: Imagenes/logoUTZMG.jpg Graphic file (type jpg)
 <use Imagenes/logoUTZMG.jpg>
-Package pdftex.def Info: Imagenes/logoUTZMG.jpg  used on input line 55.
+Package pdftex.def Info: Imagenes/logoUTZMG.jpg  used on input line 57.
 (pdftex.def)             Requested size: 57.81728pt x 72.27115pt.
 
-Overfull \hbox (34.83893pt too wide) in paragraph at lines 53--65
+Overfull \hbox (34.83893pt too wide) in paragraph at lines 55--67
  [][] 
  []
 
 <Imagenes/logoPISA.png, id=2, 301.125pt x 120.45pt>
 File: Imagenes/logoPISA.png Graphic file (type png)
 <use Imagenes/logoPISA.png>
-Package pdftex.def Info: Imagenes/logoPISA.png  used on input line 73.
+Package pdftex.def Info: Imagenes/logoPISA.png  used on input line 75.
 (pdftex.def)             Requested size: 216.81902pt x 86.72575pt.
 [1
 
@@ -323,7 +533,7 @@ Package pdftex.def Info: Imagenes/logoPISA.png  used on input line 73.
 ogoUTZMG.jpg> <./Imagenes/logoPISA.png>]
 File: Imagenes/logoUTZMG.jpg Graphic file (type jpg)
 <use Imagenes/logoUTZMG.jpg>
-Package pdftex.def Info: Imagenes/logoUTZMG.jpg  used on input line 136.
+Package pdftex.def Info: Imagenes/logoUTZMG.jpg  used on input line 138.
 (pdftex.def)             Requested size: 122.8609pt x 158.99623pt.
  [2] [3] (PisaMemoria.toc
 LaTeX Info: Redefining \. on input line 1.
@@ -340,121 +550,125 @@ Cap\'{\i }tulo 1.
 [2
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 210--211
+
+ []
+
+[3]
 Cap\'{\i }tulo 2.
-[3
+[4
 
 ]
-<Imagenes/ubicacion.png, id=37, 629.9535pt x 407.72325pt>
+<Imagenes/ubicacion.png, id=40, 629.9535pt x 407.72325pt>
 File: Imagenes/ubicacion.png Graphic file (type png)
 <use Imagenes/ubicacion.png>
-Package pdftex.def Info: Imagenes/ubicacion.png  used on input line 220.
+Package pdftex.def Info: Imagenes/ubicacion.png  used on input line 228.
 (pdftex.def)             Requested size: 375.80542pt x 243.23602pt.
-<Imagenes/OrganigramaPisa.png, id=38, 770.88pt x 578.16pt>
+<Imagenes/OrganigramaPisa.png, id=41, 770.88pt x 578.16pt>
 File: Imagenes/OrganigramaPisa.png Graphic file (type png)
 <use Imagenes/OrganigramaPisa.png>
-Package pdftex.def Info: Imagenes/OrganigramaPisa.png  used on input line 238.
+Package pdftex.def Info: Imagenes/OrganigramaPisa.png  used on input line 246.
 (pdftex.def)             Requested size: 422.77661pt x 317.0803pt.
- [4 <./Imagenes/ubicacion.png>] [5 <./Imagenes/OrganigramaPisa.png (PNG copy)>]
+ [5 <./Imagenes/ubicacion.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
-Cap\'{\i }tulo 3.
-[6
+ []
 
-]
+[6 <./Imagenes/OrganigramaPisa.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
-
- []
-
-[8]
-Cap\'{\i }tulo 4.
-[9
+Cap\'{\i }tulo 3.
+[8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 308--309
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 310--311
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
+Underfull \hbox (badness 10000) in paragraph at lines 294--295
+
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
+Cap\'{\i }tulo 4.
+[11
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 328--329
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
-
- []
-
-[11]
-Underfull \hbox (badness 10000) in paragraph at lines 327--328
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 329--331
+Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
 
@@ -469,147 +683,779 @@ Underfull \hbox (badness 10000) in paragraph at lines 334--335
  []
 
 [12]
-Cap\'{\i }tulo 5.
-[13
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
-] [14]
-Cap\'{\i }tulo 6.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 345--346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 347--349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
+
+ []
+
+[14]
+Cap\'{\i }tulo 5.
 [15
 
-] [16] [17]
+]
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 382--383
+
+ []
+
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 397--399
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--406
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
+
+ []
+
+[17]
+<Imagenes/PathAyuda/FpsLogin.png, id=85, 727.518pt x 314.97675pt>
+File: Imagenes/PathAyuda/FpsLogin.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsLogin.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsLogin.png  used on input line 43
+2.
+(pdftex.def)             Requested size: 469.75499pt x 203.38193pt.
+<Imagenes/PathAyuda/FpsRegistroUsuario.png, id=86, 530.58224pt x 300.52275pt>
+File: Imagenes/PathAyuda/FpsRegistroUsuario.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsRegistroUsuario.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsRegistroUsuario.png  used on inp
+ut line 439.
+(pdftex.def)             Requested size: 469.75499pt x 266.07495pt.
+ [18 <./Imagenes/PathAyuda/FpsLogin.png>]
+<Imagenes/PathAyuda/FpsIntegracionSAP.png, id=91, 529.37775pt x 260.77425pt>
+File: Imagenes/PathAyuda/FpsIntegracionSAP.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsIntegracionSAP.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsIntegracionSAP.png  used on inpu
+t line 446.
+(pdftex.def)             Requested size: 469.75499pt x 231.40395pt.
+<Imagenes/PathAyuda/FpsCatalagoSAP.png, id=92, 530.58224pt x 172.84575pt>
+File: Imagenes/PathAyuda/FpsCatalagoSAP.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsCatalagoSAP.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsCatalagoSAP.png  used on input l
+ine 453.
+(pdftex.def)             Requested size: 469.75499pt x 153.03308pt.
+ [19 <./Imagenes/PathAyuda/FpsRegistroUsuario.png> <./Imagenes/PathAyuda/FpsInt
+egracionSAP.png>]
+<Imagenes/PathAyuda/FpsDependeciasChecklist.png, id=98, 529.37775pt x 275.22826
+pt>
+File: Imagenes/PathAyuda/FpsDependeciasChecklist.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsDependeciasChecklist.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsDependeciasChecklist.png  used o
+n input line 460.
+(pdftex.def)             Requested size: 469.75499pt x 244.23004pt.
+<Imagenes/PathAyuda/FpsComunicacionPiso.png, id=99, 526.96875pt x 310.15875pt>
+File: Imagenes/PathAyuda/FpsComunicacionPiso.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsComunicacionPiso.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsComunicacionPiso.png  used on in
+put line 468.
+(pdftex.def)             Requested size: 469.75499pt x 276.49948pt.
+ [20 <./Imagenes/PathAyuda/FpsCatalagoSAP.png> <./Imagenes/PathAyuda/FpsDepende
+ciasChecklist.png>]
+<Imagenes/PathAyuda/FpsChecklistsInteractivos.png, id=105, 528.17325pt x 252.94
+5pt>
+File: Imagenes/PathAyuda/FpsChecklistsInteractivos.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsChecklistsInteractivos.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsChecklistsInteractivos.png  used
+ on input line 476.
+(pdftex.def)             Requested size: 469.75499pt x 224.97368pt.
+<Imagenes/PathAyuda/FpsInterfacesUsuario.png, id=106, 527.571pt x 264.99pt>
+File: Imagenes/PathAyuda/FpsInterfacesUsuario.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsInterfacesUsuario.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsInterfacesUsuario.png  used on i
+nput line 484.
+(pdftex.def)             Requested size: 469.75499pt x 235.94952pt.
+ [21 <./Imagenes/PathAyuda/FpsComunicacionPiso.png> <./Imagenes/PathAyuda/FpsCh
+ecklistsInteractivos.png>]
+<Imagenes/PathAyuda/FpsTaskmanager.png, id=113, 521.5485pt x 310.761pt>
+File: Imagenes/PathAyuda/FpsTaskmanager.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsTaskmanager.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsTaskmanager.png  used on input l
+ine 492.
+(pdftex.def)             Requested size: 469.75499pt x 279.90518pt.
+<Imagenes/PathAyuda/FpsTaskmanager2.png, id=114, 455.301pt x 290.2845pt>
+File: Imagenes/PathAyuda/FpsTaskmanager2.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsTaskmanager2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsTaskmanager2.png  used on input 
+line 500.
+(pdftex.def)             Requested size: 469.75499pt x 299.51018pt.
+ [22 <./Imagenes/PathAyuda/FpsInterfacesUsuario.png> <./Imagenes/PathAyuda/FpsT
+askmanager.png>]
+<Imagenes/PathAyuda/FpsSMED.png, id=120, 524.55975pt x 154.77824pt>
+File: Imagenes/PathAyuda/FpsSMED.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsSMED.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsSMED.png  used on input line 508
+.
+(pdftex.def)             Requested size: 469.75499pt x 138.61423pt.
+<Imagenes/PathAyuda/FpsBotonesANDON.png, id=121, 395.67825pt x 281.853pt>
+File: Imagenes/PathAyuda/FpsBotonesANDON.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsBotonesANDON.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsBotonesANDON.png  used on input 
+line 516.
+(pdftex.def)             Requested size: 469.75499pt x 334.6351pt.
+ [23 <./Imagenes/PathAyuda/FpsTaskmanager2.png> <./Imagenes/PathAyuda/FpsSMED.p
+ng>]
+<Imagenes/PathAyuda/FpsTorretasLuminosas.png, id=127, 522.15076pt x 284.86424pt
+>
+File: Imagenes/PathAyuda/FpsTorretasLuminosas.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsTorretasLuminosas.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsTorretasLuminosas.png  used on i
+nput line 525.
+(pdftex.def)             Requested size: 469.75499pt x 256.28851pt.
+ [24 <./Imagenes/PathAyuda/FpsBotonesANDON.png>]
+<Imagenes/PathAyuda/FpsAlarmasNotifiaciones.png, id=132, 516.12825pt x 266.1945
+pt>
+File: Imagenes/PathAyuda/FpsAlarmasNotifiaciones.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsAlarmasNotifiaciones.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsAlarmasNotifiaciones.png  used o
+n input line 533.
+(pdftex.def)             Requested size: 469.75499pt x 242.27798pt.
+<Imagenes/PathAyuda/FpsSimulacion.png, id=133, 540.21825pt x 257.16075pt>
+File: Imagenes/PathAyuda/FpsSimulacion.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsSimulacion.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsSimulacion.png  used on input li
+ne 541.
+(pdftex.def)             Requested size: 469.75499pt x 223.62993pt.
+ [25 <./Imagenes/PathAyuda/FpsTorretasLuminosas.png> <./Imagenes/PathAyuda/FpsA
+larmasNotifiaciones.png>]
+<Imagenes/PathAyuda/FpsPersonalizacionAndon.png, id=139, 435.42674pt x 311.3632
+5pt>
+File: Imagenes/PathAyuda/FpsPersonalizacionAndon.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsPersonalizacionAndon.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsPersonalizacionAndon.png  used o
+n input line 549.
+(pdftex.def)             Requested size: 469.75499pt x 335.92523pt.
+ [26 <./Imagenes/PathAyuda/FpsSimulacion.png>]
+<Imagenes/PathAyuda/FpsMultiCanal.png, id=144, 438.438pt x 254.1495pt>
+File: Imagenes/PathAyuda/FpsMultiCanal.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsMultiCanal.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsMultiCanal.png  used on input li
+ne 557.
+(pdftex.def)             Requested size: 469.75499pt x 272.3212pt.
+ [27 <./Imagenes/PathAyuda/FpsPersonalizacionAndon.png>]
+<Imagenes/PathAyuda/FpsSeguridadAutenticacion.png, id=150, 472.76625pt x 283.05
+75pt>
+File: Imagenes/PathAyuda/FpsSeguridadAutenticacion.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsSeguridadAutenticacion.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsSeguridadAutenticacion.png  used
+ on input line 565.
+(pdftex.def)             Requested size: 469.75499pt x 281.26004pt.
+<Imagenes/PathAyuda/FpsMonitoreoReportes.png, id=151, 519.1395pt x 281.853pt>
+File: Imagenes/PathAyuda/FpsMonitoreoReportes.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsMonitoreoReportes.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsMonitoreoReportes.png  used on i
+nput line 573.
+(pdftex.def)             Requested size: 469.75499pt x 255.04588pt.
+ [28 <./Imagenes/PathAyuda/FpsMultiCanal.png> <./Imagenes/PathAyuda/FpsSegurida
+dAutenticacion.png>]
+<Imagenes/PathAyuda/FpsRecetas.png, id=157, 596.2275pt x 162.6075pt>
+File: Imagenes/PathAyuda/FpsRecetas.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsRecetas.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsRecetas.png  used on input line 
+581.
+(pdftex.def)             Requested size: 469.75499pt x 128.1161pt.
+<Imagenes/PathAyuda/FpsInventarios.png, id=158, 434.8245pt x 280.04625pt>
+File: Imagenes/PathAyuda/FpsInventarios.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsInventarios.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsInventarios.png  used on input l
+ine 589.
+(pdftex.def)             Requested size: 469.75499pt x 302.54797pt.
+ [29 <./Imagenes/PathAyuda/FpsMonitoreoReportes.png> <./Imagenes/PathAyuda/FpsR
+ecetas.png>]
+<Imagenes/PathAyuda/FpsProgramaciónTareas.png, id=164, 552.8655pt x 255.95625p
+t>
+File: Imagenes/PathAyuda/FpsProgramaciónTareas.png Graphic file (type png)
+<use Imagenes/PathAyuda/FpsProgramaciónTareas.png>
+Package pdftex.def Info: Imagenes/PathAyuda/FpsProgramaciónTareas.png  used on
+ input line 597.
+(pdftex.def)             Requested size: 469.75499pt x 217.48572pt.
+ [30 <./Imagenes/PathAyuda/FpsInventarios.png> <./Imagenes/PathAyuda/FpsProgram
+aciónTareas.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 605--606
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--608
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 637--639
+ 
+ []
+
+<Imagenes/PathAyuda/CPLogin.png, id=170, 826.287pt x 352.9185pt>
+File: Imagenes/PathAyuda/CPLogin.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPLogin.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPLogin.png  used on input line 644
+.
+(pdftex.def)             Requested size: 469.75499pt x 200.6379pt.
+[31]
+<Imagenes/PathAyuda/CPLogin2.png, id=174, 855.79726pt x 319.79475pt>
+File: Imagenes/PathAyuda/CPLogin2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPLogin2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPLogin2.png  used on input line 65
+2.
+(pdftex.def)             Requested size: 469.75499pt x 175.53632pt.
+<Imagenes/PathAyuda/CPRegistroUsuario.png, id=175, 826.287pt x 382.42876pt>
+File: Imagenes/PathAyuda/CPRegistroUsuario.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPRegistroUsuario.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPRegistroUsuario.png  used on inpu
+t line 660.
+(pdftex.def)             Requested size: 469.75499pt x 217.41478pt.
+ [32 <./Imagenes/PathAyuda/CPLogin.png> <./Imagenes/PathAyuda/CPLogin2.png>]
+<Imagenes/PathAyuda/CPRegistroUsuario2.png, id=181, 937.70325pt x 383.63326pt>
+File: Imagenes/PathAyuda/CPRegistroUsuario2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPRegistroUsuario2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPRegistroUsuario2.png  used on inp
+ut line 668.
+(pdftex.def)             Requested size: 469.75499pt x 192.18494pt.
+<Imagenes/PathAyuda/CPInterfaces.png, id=182, 825.0825pt x 302.93175pt>
+File: Imagenes/PathAyuda/CPInterfaces.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPInterfaces.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPInterfaces.png  used on input lin
+e 676.
+(pdftex.def)             Requested size: 469.75499pt x 172.47412pt.
+ [33 <./Imagenes/PathAyuda/CPRegistroUsuario.png> <./Imagenes/PathAyuda/CPRegis
+troUsuario2.png>]
+<Imagenes/PathAyuda/CPInterfaces2.png, id=189, 938.3055pt x 305.34074pt>
+File: Imagenes/PathAyuda/CPInterfaces2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPInterfaces2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPInterfaces2.png  used on input li
+ne 684.
+(pdftex.def)             Requested size: 469.75499pt x 152.86568pt.
+<Imagenes/PathAyuda/CPSeguridadAutenticacion.png, id=190, 750.4035pt x 400.4962
+5pt>
+File: Imagenes/PathAyuda/CPSeguridadAutenticacion.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPSeguridadAutenticacion.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPSeguridadAutenticacion.png  used 
+on input line 692.
+(pdftex.def)             Requested size: 469.75499pt x 250.71898pt.
+ [34 <./Imagenes/PathAyuda/CPInterfaces.png> <./Imagenes/PathAyuda/CPInterfaces
+2.png>]
+<Imagenes/PathAyuda/CPSeguridadAutenticacion2.png, id=196, 853.38824pt x 436.02
+9pt>
+File: Imagenes/PathAyuda/CPSeguridadAutenticacion2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPSeguridadAutenticacion2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPSeguridadAutenticacion2.png  used
+ on input line 700.
+(pdftex.def)             Requested size: 469.75499pt x 240.01628pt.
+<Imagenes/PathAyuda/CPPathAyuda.png, id=197, 751.00575pt x 390.258pt>
+File: Imagenes/PathAyuda/CPPathAyuda.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPPathAyuda.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPPathAyuda.png  used on input line
+ 708.
+(pdftex.def)             Requested size: 469.75499pt x 244.10715pt.
+ [35 <./Imagenes/PathAyuda/CPSeguridadAutenticacion.png> <./Imagenes/PathAyuda/
+CPSeguridadAutenticacion2.png>]
+<Imagenes/PathAyuda/CPPathAyuda2.png, id=203, 853.9905pt x 390.258pt>
+File: Imagenes/PathAyuda/CPPathAyuda2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPPathAyuda2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPPathAyuda2.png  used on input lin
+e 716.
+(pdftex.def)             Requested size: 469.75499pt x 214.67233pt.
+<Imagenes/PathAyuda/CPANDON.png, id=204, 676.32675pt x 394.47375pt>
+File: Imagenes/PathAyuda/CPANDON.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPANDON.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPANDON.png  used on input line 724
+.
+(pdftex.def)             Requested size: 469.75499pt x 273.99292pt.
+ [36 <./Imagenes/PathAyuda/CPPathAyuda.png> <./Imagenes/PathAyuda/CPPathAyuda2.
+png>]
+<Imagenes/PathAyuda/CPANDON2.png, id=210, 767.86874pt x 392.667pt>
+File: Imagenes/PathAyuda/CPANDON2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPANDON2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPANDON2.png  used on input line 73
+2.
+(pdftex.def)             Requested size: 469.75499pt x 240.22154pt.
+<Imagenes/PathAyuda/CPPesonalizaciónANDON.png, id=211, 676.32675pt x 253.54726
+pt>
+File: Imagenes/PathAyuda/CPPesonalizaciónANDON.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPPesonalizaciónANDON.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPPesonalizaciónANDON.png  used on
+ input line 740.
+(pdftex.def)             Requested size: 469.75499pt x 176.10841pt.
+ [37 <./Imagenes/PathAyuda/CPANDON.png> <./Imagenes/PathAyuda/CPANDON2.png>]
+<Imagenes/PathAyuda/CPPesonalizaciónANDON2.png, id=217, 769.6755pt x 254.1495p
+t>
+File: Imagenes/PathAyuda/CPPesonalizaciónANDON2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPPesonalizaciónANDON2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPPesonalizaciónANDON2.png  used o
+n input line 748.
+(pdftex.def)             Requested size: 469.75499pt x 155.11629pt.
+<Imagenes/PathAyuda/CPBotonesAndon.png, id=218, 676.32675pt x 268.00125pt>
+File: Imagenes/PathAyuda/CPBotonesAndon.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPBotonesAndon.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPBotonesAndon.png  used on input l
+ine 756.
+(pdftex.def)             Requested size: 469.75499pt x 186.14786pt.
+ [38 <./Imagenes/PathAyuda/CPPesonalizaciónANDON.png> <./Imagenes/PathAyuda/CP
+PesonalizaciónANDON2.png>]
+<Imagenes/PathAyuda/CPBotonesAndon2.png, id=224, 769.07326pt x 268.00125pt>
+File: Imagenes/PathAyuda/CPBotonesAndon2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPBotonesAndon2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPBotonesAndon2.png  used on input 
+line 764.
+(pdftex.def)             Requested size: 469.75499pt x 163.69725pt.
+<Imagenes/PathAyuda/CPTorreta.png, id=225, 826.287pt x 254.75175pt>
+File: Imagenes/PathAyuda/CPTorreta.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPTorreta.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPTorreta.png  used on input line 7
+72.
+(pdftex.def)             Requested size: 469.75499pt x 144.82906pt.
+File: Imagenes/PathAyuda/CPTorreta.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPTorreta.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPTorreta.png  used on input line 7
+80.
+(pdftex.def)             Requested size: 469.75499pt x 144.82906pt.
+ [39 <./Imagenes/PathAyuda/CPBotonesAndon.png> <./Imagenes/PathAyuda/CPBotonesA
+ndon2.png> <./Imagenes/PathAyuda/CPTorreta.png>]
+<Imagenes/PathAyuda/CPTorreta2.png, id=233, 937.70325pt x 271.61475pt>
+File: Imagenes/PathAyuda/CPTorreta2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPTorreta2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPTorreta2.png  used on input line 
+788.
+(pdftex.def)             Requested size: 469.75499pt x 136.06813pt.
+<Imagenes/PathAyuda/CPMultiCanal.png, id=234, 825.68475pt x 314.3745pt>
+File: Imagenes/PathAyuda/CPMultiCanal.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPMultiCanal.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPMultiCanal.png  used on input lin
+e 796.
+(pdftex.def)             Requested size: 469.75499pt x 178.85953pt.
+<Imagenes/PathAyuda/CPMultiCanal2.png, id=235, 937.70325pt x 313.77225pt>
+File: Imagenes/PathAyuda/CPMultiCanal2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPMultiCanal2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPMultiCanal2.png  used on input li
+ne 804.
+(pdftex.def)             Requested size: 469.75499pt x 157.18736pt.
+ [40 <./Imagenes/PathAyuda/CPTorreta2.png> <./Imagenes/PathAyuda/CPMultiCanal.p
+ng>]
+<Imagenes/PathAyuda/CPSMED.png, id=241, 826.287pt x 393.26926pt>
+File: Imagenes/PathAyuda/CPSMED.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPSMED.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPSMED.png  used on input line 812.
+
+(pdftex.def)             Requested size: 469.75499pt x 223.57773pt.
+<Imagenes/PathAyuda/CPSMED2.png, id=242, 937.70325pt x 395.67825pt>
+File: Imagenes/PathAyuda/CPSMED2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPSMED2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPSMED2.png  used on input line 820
+.
+(pdftex.def)             Requested size: 469.75499pt x 198.219pt.
+ [41 <./Imagenes/PathAyuda/CPMultiCanal2.png> <./Imagenes/PathAyuda/CPSMED.png>
+]
+<Imagenes/PathAyuda/CPRecetas.png, id=248, 677.53125pt x 390.258pt>
+File: Imagenes/PathAyuda/CPRecetas.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPRecetas.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPRecetas.png  used on input line 8
+28.
+(pdftex.def)             Requested size: 422.77661pt x 243.52953pt.
+<Imagenes/PathAyuda/CPRecetas2.png, id=249, 770.88pt x 391.4625pt>
+File: Imagenes/PathAyuda/CPRecetas2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPRecetas2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPRecetas2.png  used on input line 
+836.
+(pdftex.def)             Requested size: 469.75499pt x 238.54686pt.
+ [42 <./Imagenes/PathAyuda/CPSMED2.png> <./Imagenes/PathAyuda/CPRecetas.png>]
+<Imagenes/PathAyuda/CPLineaProduccion.png, id=255, 826.287pt x 316.18124pt>
+File: Imagenes/PathAyuda/CPLineaProduccion.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPLineaProduccion.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPLineaProduccion.png  used on inpu
+t line 844.
+(pdftex.def)             Requested size: 469.75499pt x 179.75237pt.
+<Imagenes/PathAyuda/CPLineaProduccion2.png, id=256, 937.70325pt x 316.18124pt>
+File: Imagenes/PathAyuda/CPLineaProduccion2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPLineaProduccion2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPLineaProduccion2.png  used on inp
+ut line 852.
+(pdftex.def)             Requested size: 469.75499pt x 158.39417pt.
+ [43 <./Imagenes/PathAyuda/CPRecetas2.png> <./Imagenes/PathAyuda/CPLineaProducc
+ion.png>]
+<Imagenes/PathAyuda/CPGestionArea.png, id=262, 826.287pt x 221.02576pt>
+File: Imagenes/PathAyuda/CPGestionArea.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPGestionArea.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPGestionArea.png  used on input li
+ne 860.
+(pdftex.def)             Requested size: 469.75499pt x 125.65547pt.
+<Imagenes/PathAyuda/CPGestionArea2.png, id=263, 940.11224pt x 223.43475pt>
+File: Imagenes/PathAyuda/CPGestionArea2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPGestionArea2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPGestionArea2.png  used on input l
+ine 868.
+(pdftex.def)             Requested size: 469.75499pt x 111.6455pt.
+<Imagenes/PathAyuda/CPTask.png, id=264, 825.68475pt x 368.577pt>
+File: Imagenes/PathAyuda/CPTask.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPTask.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPTask.png  used on input line 876.
+
+(pdftex.def)             Requested size: 469.75499pt x 209.69737pt.
+ [44 <./Imagenes/PathAyuda/CPLineaProduccion2.png> <./Imagenes/PathAyuda/CPGest
+ionArea.png> <./Imagenes/PathAyuda/CPGestionArea2.png>]
+<Imagenes/PathAyuda/CPTask2.png, id=271, 937.70325pt x 367.97475pt>
+File: Imagenes/PathAyuda/CPTask2.png Graphic file (type png)
+<use Imagenes/PathAyuda/CPTask2.png>
+Package pdftex.def Info: Imagenes/PathAyuda/CPTask2.png  used on input line 884
+.
+(pdftex.def)             Requested size: 469.75499pt x 184.34065pt.
+ [45 <./Imagenes/PathAyuda/CPTask.png> <./Imagenes/PathAyuda/CPTask2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 894--895
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 896--897
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 902--903
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 905--908
+ 
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 911--914
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 917--920
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 923--926
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 930--931
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 958--960
+ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 963--964
+
+ []
+
+[47]
+<Imagenes/CalculadoraNutricional/CPLogin.png, id=284, 885.90974pt x 251.13824pt
+>
+File: Imagenes/CalculadoraNutricional/CPLogin.png Graphic file (type png)
+<use Imagenes/CalculadoraNutricional/CPLogin.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPLogin.png  used on i
+nput line 969.
+(pdftex.def)             Requested size: 469.75499pt x 133.16394pt.
+<Imagenes/CalculadoraNutricional/CPLogin2.png, id=285, 951.555pt x 251.13824pt>
+
+File: Imagenes/CalculadoraNutricional/CPLogin2.png Graphic file (type png)
+<use Imagenes/CalculadoraNutricional/CPLogin2.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPLogin2.png  used on 
+input line 977.
+(pdftex.def)             Requested size: 469.75499pt x 123.98235pt.
+<Imagenes/CalculadoraNutricional/CPCuentaMedico.png, id=286, 805.20825pt x 395.
+67825pt>
+File: Imagenes/CalculadoraNutricional/CPCuentaMedico.png Graphic file (type png
+)
+<use Imagenes/CalculadoraNutricional/CPCuentaMedico.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPCuentaMedico.png  us
+ed on input line 985.
+(pdftex.def)             Requested size: 469.75499pt x 230.8399pt.
+ [48 <./Imagenes/CalculadoraNutricional/CPLogin.png> <./Imagenes/CalculadoraNut
+ricional/CPLogin2.png>]
+<Imagenes/CalculadoraNutricional/CPCuentaMedico2.png, id=292, 862.422pt x 395.6
+7825pt>
+File: Imagenes/CalculadoraNutricional/CPCuentaMedico2.png Graphic file (type pn
+g)
+<use Imagenes/CalculadoraNutricional/CPCuentaMedico2.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPCuentaMedico2.png  u
+sed on input line 993.
+(pdftex.def)             Requested size: 469.75499pt x 215.52263pt.
+<Imagenes/CalculadoraNutricional/CPCuentaEstudiante.png, id=293, 805.20825pt x 
+278.84175pt>
+File: Imagenes/CalculadoraNutricional/CPCuentaEstudiante.png Graphic file (type
+ png)
+<use Imagenes/CalculadoraNutricional/CPCuentaEstudiante.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPCuentaEstudiante.png
+  used on input line 1001.
+(pdftex.def)             Requested size: 469.75499pt x 162.67712pt.
+ [49 <./Imagenes/CalculadoraNutricional/CPCuentaMedico.png> <./Imagenes/Calcula
+doraNutricional/CPCuentaMedico2.png>]
+<Imagenes/CalculadoraNutricional/CPCuentaEstudiante2.png, id=299, 865.43324pt x
+ 257.16075pt>
+File: Imagenes/CalculadoraNutricional/CPCuentaEstudiante2.png Graphic file (typ
+e png)
+<use Imagenes/CalculadoraNutricional/CPCuentaEstudiante2.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPCuentaEstudiante2.pn
+g  used on input line 1009.
+(pdftex.def)             Requested size: 469.75499pt x 139.58673pt.
+<Imagenes/CalculadoraNutricional/CPSesionGestion.png, id=300, 884.103pt x 329.4
+3076pt>
+File: Imagenes/CalculadoraNutricional/CPSesionGestion.png Graphic file (type pn
+g)
+<use Imagenes/CalculadoraNutricional/CPSesionGestion.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPSesionGestion.png  u
+sed on input line 1017.
+(pdftex.def)             Requested size: 469.75499pt x 175.03479pt.
+<Imagenes/CalculadoraNutricional/CPSesionGestion2.png, id=301, 953.36176pt x 32
+9.43076pt>
+File: Imagenes/CalculadoraNutricional/CPSesionGestion2.png Graphic file (type p
+ng)
+<use Imagenes/CalculadoraNutricional/CPSesionGestion2.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPSesionGestion2.png  
+used on input line 1025.
+(pdftex.def)             Requested size: 469.75499pt x 162.32225pt.
+ [50 <./Imagenes/CalculadoraNutricional/CPCuentaEstudiante.png> <./Imagenes/Cal
+culadoraNutricional/CPCuentaEstudiante2.png> <./Imagenes/CalculadoraNutricional
+/CPSesionGestion.png>]
+<Imagenes/CalculadoraNutricional/CPRolesPermisos.png, id=308, 805.20825pt x 388
+.45125pt>
+File: Imagenes/CalculadoraNutricional/CPRolesPermisos.png Graphic file (type pn
+g)
+<use Imagenes/CalculadoraNutricional/CPRolesPermisos.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPRolesPermisos.png  u
+sed on input line 1034.
+(pdftex.def)             Requested size: 469.75499pt x 226.62366pt.
+<Imagenes/CalculadoraNutricional/CPRolesPermisos2.png, id=309, 865.43324pt x 38
+4.2355pt>
+File: Imagenes/CalculadoraNutricional/CPRolesPermisos2.png Graphic file (type p
+ng)
+<use Imagenes/CalculadoraNutricional/CPRolesPermisos2.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPRolesPermisos2.png  
+used on input line 1042.
+(pdftex.def)             Requested size: 469.75499pt x 208.56285pt.
+ [51 <./Imagenes/CalculadoraNutricional/CPSesionGestion2.png> <./Imagenes/Calcu
+ladoraNutricional/CPRolesPermisos.png>]
+<Imagenes/CalculadoraNutricional/CPEncuestaEstudiante.png, id=316, 884.103pt x 
+209.583pt>
+File: Imagenes/CalculadoraNutricional/CPEncuestaEstudiante.png Graphic file (ty
+pe png)
+<use Imagenes/CalculadoraNutricional/CPEncuestaEstudiante.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPEncuestaEstudiante.p
+ng  used on input line 1050.
+(pdftex.def)             Requested size: 469.75499pt x 111.35667pt.
+<Imagenes/CalculadoraNutricional/CPEncuestaEstudiante2.png, id=317, 952.7595pt 
+x 211.38976pt>
+File: Imagenes/CalculadoraNutricional/CPEncuestaEstudiante2.png Graphic file (t
+ype png)
+<use Imagenes/CalculadoraNutricional/CPEncuestaEstudiante2.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPEncuestaEstudiante2.
+png  used on input line 1058.
+(pdftex.def)             Requested size: 469.75499pt x 104.22375pt.
+<Imagenes/CalculadoraNutricional/CPDiseñoInterfaz.png, id=318, 883.50075pt x 2
+05.9695pt>
+File: Imagenes/CalculadoraNutricional/CPDiseñoInterfaz.png Graphic file (type 
+png)
+<use Imagenes/CalculadoraNutricional/CPDiseñoInterfaz.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPDiseñoInterfaz.png 
+ used on input line 1066.
+(pdftex.def)             Requested size: 469.75499pt x 109.5153pt.
+ [52 <./Imagenes/CalculadoraNutricional/CPRolesPermisos2.png> <./Imagenes/Calcu
+ladoraNutricional/CPEncuestaEstudiante.png> <./Imagenes/CalculadoraNutricional/
+CPEncuestaEstudiante2.png>]
+<Imagenes/CalculadoraNutricional/CPDiseñoInterfaz2.png, id=325, 952.15726pt x 
+205.9695pt>
+File: Imagenes/CalculadoraNutricional/CPDiseñoInterfaz2.png Graphic file (type
+ png)
+<use Imagenes/CalculadoraNutricional/CPDiseñoInterfaz2.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPDiseñoInterfaz2.png
+  used on input line 1074.
+(pdftex.def)             Requested size: 469.75499pt x 101.61734pt.
+<Imagenes/CalculadoraNutricional/CPCalculadora.png, id=326, 643.203pt x 360.145
+5pt>
+File: Imagenes/CalculadoraNutricional/CPCalculadora.png Graphic file (type png)
+
+<use Imagenes/CalculadoraNutricional/CPCalculadora.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPCalculadora.png  use
+d on input line 1082.
+(pdftex.def)             Requested size: 469.75499pt x 263.03041pt.
+<Imagenes/CalculadoraNutricional/CPCalculo2.png, id=327, 695.59875pt x 361.35pt
+>
+File: Imagenes/CalculadoraNutricional/CPCalculo2.png Graphic file (type png)
+<use Imagenes/CalculadoraNutricional/CPCalculo2.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPCalculo2.png  used o
+n input line 1090.
+(pdftex.def)             Requested size: 469.75499pt x 244.02754pt.
+
+[53 <./Imagenes/CalculadoraNutricional/CPDiseñoInterfaz.png> <./Imagenes/Calcu
+ladoraNutricional/CPDiseñoInterfaz2.png> <./Imagenes/CalculadoraNutricional/CP
+Calculadora.png>]
+<Imagenes/CalculadoraNutricional/CPInicio.png, id=334, 886.512pt x 242.1045pt>
+File: Imagenes/CalculadoraNutricional/CPInicio.png Graphic file (type png)
+<use Imagenes/CalculadoraNutricional/CPInicio.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPInicio.png  used on 
+input line 1098.
+(pdftex.def)             Requested size: 469.75499pt x 128.28891pt.
+<Imagenes/CalculadoraNutricional/CPInicio2.png, id=335, 950.3505pt x 243.91125p
+t>
+File: Imagenes/CalculadoraNutricional/CPInicio2.png Graphic file (type png)
+<use Imagenes/CalculadoraNutricional/CPInicio2.png>
+Package pdftex.def Info: Imagenes/CalculadoraNutricional/CPInicio2.png  used on
+ input line 1106.
+(pdftex.def)             Requested size: 469.75499pt x 120.56337pt.
+ [54 <./Imagenes/CalculadoraNutricional/CPCalculo2.png> <./Imagenes/Calculadora
+Nutricional/CPInicio.png> <./Imagenes/CalculadoraNutricional/CPInicio2.png>]
+Cap\'{\i }tulo 6.
+[55
+
+] [56]
 Ap\'{e}ndice A.
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--427
+Underfull \hbox (badness 10000) in paragraph at lines 1145--1146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 428--429
+Underfull \hbox (badness 10000) in paragraph at lines 1147--1148
 
  []
 
 
-Overfull \hbox (16.66763pt too wide) in paragraph at lines 430--431
-\T1/cmr/m/n/12 TOTVS. Re-cu-pe-ra-do de https://es.totvs.com/blog/gestion-indus
-trial/gestion-de-la-produccion-
+Overfull \hbox (1.60023pt too wide) in paragraph at lines 1149--1151
+\T1/cmr/m/n/12 de https://www.arsys.es/blog/hacer-documentacion-tecnica-softwar
+e: : text=Laimportancia-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 432--433
+Underfull \hbox (badness 10000) in paragraph at lines 1149--1151
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--435
+Overfull \hbox (15.46803pt too wide) in paragraph at lines 1152--1153
+\T1/cmr/m/n/12 tu-bre de 2024, de https://www.ibm.com/mx-es/topics/what-is-requ
+irements-management: :text 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1152--1153
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 436--437
+Underfull \hbox (badness 10000) in paragraph at lines 1154--1155
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+Overfull \hbox (17.09972pt too wide) in paragraph at lines 1156--1157
+\T1/cmr/m/n/12 do 20 de sep-tiem-bre de 2024, de https://www.geeksforgeeks.org/
+software-engineering-functional-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
 
  []
 
-[18
+[57
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 440--441
+Underfull \hbox (badness 10000) in paragraph at lines 1158--1159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--443
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1161
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 444--445
-
- []
-
-
-Overfull \hbox (133.52pt too wide) in paragraph at lines 446--447
-[]\T1/cmr/m/n/12 SAP. (s.f.). \T1/cmr/m/it/12 �Qu� es SAP? De-fi-ni-ci�n y sig-
-ni-fi-ca-do\T1/cmr/m/n/12 . Re-cu-pe-ra-do de https://www.sap.com/latinamerica/
-about/what-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 446--447
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 448--449
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 450--451
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 452--453
-
- []
-
-
-Overfull \hbox (15.34338pt too wide) in paragraph at lines 454--455
+Overfull \hbox (15.34338pt too wide) in paragraph at lines 1162--1163
 \T1/cmr/m/it/12 Tem-pla-te\T1/cmr/m/n/12 . Leap-work. Re-cu-pe-ra-do de https:/
 /www.leapwork.com/blog/test-case-vs-test-scenario 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 454--455
+Underfull \hbox (badness 10000) in paragraph at lines 1162--1163
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+Underfull \hbox (badness 10000) in paragraph at lines 1164--1165
 
  []
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 458--459
-
- []
-
-
-Overfull \hbox (44.90327pt too wide) in paragraph at lines 460--461
-\T1/cmr/m/n/12 Lamb-da-Test. Re-cu-pe-ra-do de https://www.lambdatest.com/learn
-ing-hub/cross-browser-compatibility 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 460--461
-
- []
-
-
-Overfull \hbox (179.08748pt too wide) in paragraph at lines 462--463
-[]\T1/cmr/m/n/12 AppMaster. (s.f.). \T1/cmr/m/it/12 Com-pa-ti-bi-li-dad con dis
--po-si-ti-vos m�-vi-les\T1/cmr/m/n/12 . Re-cu-pe-ra-do de https://appmaster.io/
-es/glossary/compatibilidad-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
-
- []
-
-[20]
+[58]
 Ap\'{e}ndice B.
-[21
+[59
 
 ] (PisaMemoria.aux
 LaTeX Info: Redefining \. on input line 9.
@@ -625,10 +1471,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5075 strings out of 474486
- 77054 string characters out of 5743755
+ 5565 strings out of 474486
+ 100459 string characters out of 5743755
  1932542 words of memory out of 5000000
- 27296 multiletter control sequences out of 15000+600000
+ 27786 multiletter control sequences out of 15000+600000
  577365 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  72i,14n,79p,701b,426s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -644,9 +1490,9 @@ eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecxc2074.pk> <C:\Users\luism\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\luism\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\luism\
 AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk>
-Output written on PisaMemoria.pdf (25 pages, 592140 bytes).
+Output written on PisaMemoria.pdf (63 pages, 3585585 bytes).
 PDF statistics:
- 545 PDF objects out of 1000 (max. 8388607)
+ 821 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 words of extra memory for PDF output out of 10000 (max. 10000000)
 
